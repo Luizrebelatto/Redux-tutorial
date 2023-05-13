@@ -6,12 +6,17 @@
 - Simples object javascript
 - Deve ter uma prop `type` que indica a ação que será executada
 - Esses `types` são determinados como constantes string<br/>
-    `const BUY_CAKE = 'BUY_CAKE';`
+    ```
+    const BUY_CAKE = "BUY_CAKE";
+    ```
 - precisamos criar uma função para executar essa ação
     chamamos de criador de ação
-    `function buyCake() {
+    
+    ```
+    function buyCake() {
         return {
             type: BUY_CAKE,
-            info: 'First redux action',
+            info: "First redux action",
         }
-    }`
+    }
+    ```
